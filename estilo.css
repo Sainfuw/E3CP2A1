@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	background-color: #EDEDED;
+	font-family: sans-serif;
+	color: #484848;
+}
+.marco {
+	width: 85%;
+	margin: 80px auto 30px auto;
+	background-color: white;
+}
+.header {
+	text-align: center;
+}
+.line {
+	height: 1px;
+	background-color: #EDEDED;
+	margin: 1px 5px;
+}
+.row {
+	clear: both;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10 {
+	float: left;
+	padding: 20px;	
+}
+.col-md-1 {
+	width: 10%;
+}
+.col-md-2 {
+	width: 20%;
+}
+.col-md-3 {
+	width: 30%;
+}
+.col-md-4 {
+	width: 40%;
+}
+.col-md-5 {
+	width: 50%;
+}
+.col-md-6 {
+	width: 60%;
+}
+.col-md-7 {
+	width: 70%;
+}
+.col-md-8 {
+	width: 80%;
+}
+.col-md-9 {
+	width: 90%;
+}
+.col-md-10 {
+	width: 100%;
+}
+
+ul li {
+	line-height: 20px;
+}
+.burble {
+	background-color: #EEEEEE;
+	padding: 10px;
+	margin: 5px auto;
+}
+#python, #html, #css, #js, #php, .hobbies {
+	background-color: #F0563E;
+	color: white;
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#python { width: 100%; }
+#html { width: 85%; }
+#css { width: 60%; }
+#js { width: 40%; }
+#php { width: 20%; }
+.exp {
+	padding: 5px 0;
+}
+
+.idioma {
+	float: left;
+}
+.check-star, .uncheck-star {
+	font-size: 20px;
+	float: right;
+	letter-spacing: 10px;
+}
+.check-star {
+	color: #F0563E;
+}
+.uncheck-star {
+	color: #484848;
+}
+.dotline {
+	border: none;
+	border-top: 1px dotted #EDEDED;
+	clear: both;
+}
+.hobbies {
+	 display: inline-block;
+	 font-weight: bold;
+}
+.footer {
+	padding: 5px;
+}
+.person {
+	width: 20%;
+	position: relative;
+	top: -70px;
+	border-radius: 50%;
+	border: 6px solid #EDEDED;
+}
+p, ul li{
+	font-size: 14px;
+	text-align: justify;
+}
+.mini {
+	font-size: 12px;
+}
+.header h1 {
+	position: relative;
+	top: -40px;
+	font-size: 20px;
+}
+.titleFont, .titles, .name {
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.titles, .name {
+	color: #F0563E;
+}
+.titles {
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.right {
+	text-align: right;
+}
