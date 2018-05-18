@@ -20,44 +20,6 @@ body {
 	background-color: #EDEDED;
 	margin: 1px 5px;
 }
-.row {
-	clear: both;
-}
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
-.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10 {
-	float: left;
-	padding: 20px;	
-}
-.col-md-1 {
-	width: 10%;
-}
-.col-md-2 {
-	width: 20%;
-}
-.col-md-3 {
-	width: 30%;
-}
-.col-md-4 {
-	width: 40%;
-}
-.col-md-5 {
-	width: 50%;
-}
-.col-md-6 {
-	width: 60%;
-}
-.col-md-7 {
-	width: 70%;
-}
-.col-md-8 {
-	width: 80%;
-}
-.col-md-9 {
-	width: 90%;
-}
-.col-md-10 {
-	width: 100%;
-}
 
 ul li {
 	line-height: 20px;
@@ -66,6 +28,16 @@ ul li {
 	background-color: #EEEEEE;
 	padding: 10px;
 	margin: 5px auto;
+}
+.arrow-chat {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #EEEEEE;
+	float: right;
+	margin-top: 10px;
+}
+.year {
+	padding-top: 10px;
 }
 #python, #html, #css, #js, #php, .hobbies {
 	background-color: #F0563E;
